@@ -1,4 +1,4 @@
-//서버의 메인
+//서버의 메인 //hello
 const express = require('express') // node_modules 내 express 관련 코드를 가져온다
 const cors = require('cors') //=> cors 설정=> 동일 출처정책(보안)
 const logger = require('morgan')
