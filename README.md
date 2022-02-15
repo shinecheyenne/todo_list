@@ -12,33 +12,19 @@ CORS 란 자신이 속하지 않은 다른 도메인, 다른 프로토콜, 다�
 |todo
 
 | |-server
-
 | | |-.gitignore
-
 | | |-node_modules
-
 | | |-src
-
 | | | |-models
-
 | | | | |-Todo.js
-
 | | | | |-User.js
-
 | | | |-routes
-
 | | | | |-index.js
-
 | | | | |-todo
-
 | | | | | |-index.js
-
 | |-nginx
-
 | |-client
-
 | |-index.js
-
 | |-package.json
 
 
@@ -76,3 +62,9 @@ CORS 란 자신이 속하지 않은 다른 도메인, 다른 프로토콜, 다�
 
 12. (base) PS D:\신채연\todo\server> npm install morgan --save
 logger
+
+
+//3 hand shakings
+브라우저 -> 서버 데이터 요청 (options method)
+서버 -> 브라우저 결과 전달
+서버의 허가를 받으면 다시 요청
